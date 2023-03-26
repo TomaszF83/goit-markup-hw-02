@@ -1,0 +1,21 @@
+:root {
+    --background-color-main: #ffffff;
+    --background-coclor-section:#2F303A;
+    --background-coclor-team:#F5F4FA;
+    --background-color-border:#EEEEEE;
+    --active-color: #2196f3;
+    --font-color: #212121;
+    --font-color-logo: #2196f3;
+    --font-coclo-logo-header: #000000;
+    --font-color-logo-bottom: #FFFFFF;
+    --font-color-dark-background:#2F303A;
+    --font-color-footer: #ffffff;
+    --font-color-footer-with-alpha: #ffffff99;
+    --font-color-contact-header:#757575;
+    --font-color-paragraph:#757575;
+    --background-color-btn-unactive: #f5f4fa;
+}
+.body {
+    
+
+}
