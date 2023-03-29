@@ -15,7 +15,7 @@
     --font-color-paragraph:#757575;
     --background-color-btn-unactive: #f5f4fa;
 }
-.body {
+ body {
   font-family: 'Roboto', 'sans-serif';
   background-color: var(--background-color-main);
   color: var(--font-color);
@@ -42,10 +42,11 @@ list-style: none;
    color: var(--font-color);
    font-weight: 500;
    font-size: 14px;
+   
 }
 .navigation-link:hover,
 .navigation-link:focus {
-   color: var(--activ-color);
+   color: var(--active-color);
 }
 .contact-header-link {
     text-decoration: none;
@@ -55,7 +56,7 @@ list-style: none;
 }
 .contact-header-link:hover,
 .contact-header-link:focus {
-    color: var(active-color);
+    color: var(--active-color);
 }
 .bottom {
    background-color: var(--background-coclor-section);
@@ -65,30 +66,31 @@ list-style: none;
     font-style: normal;
     color: var(--font-color-bottom);
 }
-.conact-bottom-link {
+.contact-bottom-link {
     color: var(--font-color-bottom-with-alpha);
     text-decoration: none;
     font-style: normal;
 }
 .contact-bottom-adres:hover,
 .contact-bottom-adres:focus,
-.conact-bottom-link:hover,
-.conact-bottom-link:focus {
+.contact-bottom-link:hover,
+.contact-bottom-link:focus {
     color: var(--active-color);
 }
 /*strona portfolio*/
 .subject-list{
-    list-style: none;
+    list-style: none;   
 }
 .btn-subject{
     font-family: 'Roboto' , sans-serif;
     font-size: 16px; 
     background-color: var(--background-color-btn-unactive);
     color: var(--font-color);
+       
 }
 .btn-subject:hover,
 .btn-subject:focus {
-    background-color: var(--activ-color);
+    background-color: var(--active-color);
     color: var(--font-color-dark-background);
 }
 /*grafiki*/
@@ -109,22 +111,24 @@ list-style: none;
 .home{
     background-color: var(--background-coclor-section);
 }
-.title-side{
+.title-site{
     font-weight: 900;
     font-size: 44px;
     text-align: center;
     color: var(--font-color-dark-background);
 }
-.btn-service{
+
+.btn-service {
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
     text-align: center;
     font-weight: 700;
     font-size: 16px;
     color: var(--font-color-dark-background);
-    /*button domyślnie jest ustawiony w color: #000000 */
-    background-color: var(--activ-color);
-}
+/*button domyślnie jest ustawiony w color: #000000 */
+    background-color: var(--active-color);}
+
+
 /*sekcja tekstowa*/
 .
 .text-container-lis{
