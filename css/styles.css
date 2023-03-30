@@ -20,6 +20,7 @@
   background-color: var(--background-color-main);
   color: var(--font-color);
   font-size: 14px;
+  
 }
 .logo {
     font-family: 'Raleway';
@@ -49,6 +50,7 @@ list-style: none;
    color: var(--active-color);
 }
 .contact-header-link {
+    list-style: none;
     text-decoration: none;
     color: var(--font-color-contact-header);
     font-weight: 500;
@@ -79,10 +81,14 @@ list-style: none;
 }
 /*strona portfolio*/
 .subject-list{
-    list-style: none;   
+    list-style: none;
+       
 }
 .btn-subject{
     font-family: 'Roboto' , sans-serif;
+    cursor: pointer;
+    padding: 6px 22px;
+    border-radius: 4px;
     font-size: 16px; 
     background-color: var(--background-color-btn-unactive);
     color: var(--font-color);
@@ -121,6 +127,8 @@ list-style: none;
 .btn-service {
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
+    border-radius: 4px;
+    padding: 6px 22px;
     text-align: center;
     font-weight: 700;
     font-size: 16px;
@@ -131,7 +139,7 @@ list-style: none;
 
 /*sekcja tekstowa*/
 .
-.text-container-lis{
+.text-container-list{
     list-style: none;
 }
 .text-container-list-item h3{
